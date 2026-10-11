@@ -1,0 +1,1 @@
+{"description":"Bangladesh emergency helpline quick-dial directory — offline, bilingual EN/বাংলা, static web app.","devDependencies":{"puppeteer-core":"^25.13.0"},"keywords":["bangladesh","emergency","helpline","offline","bilingual"],"license":"MIT","name":"emergency-helplines-bd","scripts":{"test":"node tests/test.js"},"version":"1.0.0"}

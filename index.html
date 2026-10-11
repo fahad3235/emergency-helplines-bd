@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emergency Helplines BD — জরুরি হেল্পলাইন</title>
+  <meta name="description" content="Verified emergency &amp; helpline numbers for Bangladesh. Offline, bilingual EN/বাংলা quick-dial directory.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="banner" id="banner">
+    <a class="banner-call" href="tel:999" aria-label="Call 999 — National Emergency Service">
+      <span class="banner-dot" aria-hidden="true"></span>
+      <span id="bannerLabel">EMERGENCY — CALL</span>
+      <span class="banner-num" id="bannerNum" dir="ltr">999</span>
+    </a>
+  </header>
+
+  <div class="app">
+    <div class="toolbar">
+      <div class="brand-row">
+        <h1 id="appTitle">Emergency Helplines BD</h1>
+        <button id="langToggle" class="lang-toggle" aria-label="Switch language / ভাষা বদলান">বাংলা</button>
+      </div>
+      <p class="subtitle" id="appSubtitle">Verified emergency &amp; helpline numbers for Bangladesh. Tap a number to call.</p>
+      <input id="search" type="search" placeholder="Search number or name…" autocomplete="off" aria-label="Search number or name…">
+      <div class="chips" id="chips" role="tablist" aria-label="Category filter"></div>
+    </div>
+
+    <main>
+      <div id="cards" class="cards"></div>
+      <div id="empty" class="empty" hidden></div>
+    </main>
+
+    <footer>
+      <p id="offlineNote">📴 Works fully offline — saved on your device, no internet or sign-up needed.</p>
+      <p id="dataNote">Numbers verified from press reports, October 2026. Re-verify before relying in an emergency.</p>
+      <p id="disclaimer">A community directory — not an official government app.</p>
+      <details>
+        <summary id="sourcesTitle">Data sources (press reports)</summary>
+        <ul id="sourcesList"></ul>
+      </details>
+    </footer>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
